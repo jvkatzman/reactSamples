@@ -1,6 +1,7 @@
 // https://jscomplete.com/playground/rgs1.8
 // shows that native html wipes out whole screen 
 // whereas react refreshes needed parts
+
 const render = () => {
   document.getElementById('mountNode').innerHTML = `
     <div>
